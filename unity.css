@@ -1,0 +1,73 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 16vh;
+    background: url(./images/835871.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.list_navbar{
+    width: 35%;
+    margin-top: 2%;
+    display: flex; 
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.title_navbar{
+    text-align: center;
+    font-family: 'Gamja Flower', cursive;
+}
+
+.title_and_logo{
+    margin-top: 2%;
+    margin-left: 8%;
+    display: flex;
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 32px;
+}
+
+.list_home, .list_gallery, .list_about{
+    cursor: pointer;
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    color: black;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+}
+
+.list_home:hover, .list_gallery:hover, .list_about:hover{
+    background-color: black;
+    border: 2px solid rgb(245, 202, 9);
+    color: rgb(245, 202, 9);
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:link:hover{
+    color: rgb(245, 202, 9);
+}
+
+canvas{
+    margin-top: 30px;
+}
